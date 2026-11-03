@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2026-11-04
+### Fixed
+Behaviour tests rebuilt the same way as fsdevops 0.3.1 (8/8 pass, was 2/8). The Nowa expert now lists the desktop settings: Local setup paths and the Git panel credentials.
+
 ## [0.1.1] - 2026-11-03
 ### Changed
 - Developer plugin handoff now names Full-Stack DevOps (`fsdevops`), the renamed fs-developer.

@@ -2,6 +2,7 @@
 
 ## Project types
 - **Local project**: a Flutter folder on disk, available on every plan through Nowa Desktop. Create: Desktop → Local Projects → New Local Project. The default folder is set in settings; choose one under the user's dev folder.
+- **Desktop settings** (Settings → Editor settings): *Local setup* holds Flutter SDK Path, Default Projects Path and VS Code path (point them at the existing installs; skip "Set up automatically", which downloads its own Flutter). *Git* holds GitHub Integration, Legacy Remote Credentials and External Local Credentials; the user connects GitHub there.
 - **Cloud project**: stored by Nowa; Settings → Project Sync copies cloud ↔ local in one click (not Git).
 - **Workspaces / monorepos** (3.12+): import a local repo and pick the package; the package shows under its own name in Recents (3.16.4).
 

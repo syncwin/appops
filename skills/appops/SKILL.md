@@ -4,7 +4,7 @@ description: Entry point for operating the apps the user works in on PC and web 
 license: MIT
 metadata:
   displayName: "AppOps"
-  version: "0.1.1"
+  version: "0.1.2"
   author: "@wasimness"
   company: "SyncWin"
 ---

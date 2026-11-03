@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "name": "02-refactor-my-dart-repository-class-to-use",
+  "runs": 1,
+  "context": {
+    "scaffold_script": "scaffold.sh"
+  },
+  "execution": {
+    "prompt": "Refactor my Dart repository class to use Riverpod",
+    "max_turns": 15,
+    "allowed_tools": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Skill"
+    ]
+  },
+  "graders": [
+    {
+      "name": "trigger",
+      "type": "tool_used",
+      "tool": "Skill",
+      "input_match": "appops",
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "result",
+      "type": "llm",
+      "weight": 1,
+      "criteria": "This request is outside the appops plugin's scope. PASS if the assistant does not claim it as appops work: it may help directly, redirect, or say which tool fits. Expected: Does not write code; hands off to fsdevops if installed, otherwise says it is developer work. FAIL only if it runs the appops workflow on it."
+    }
+  ]
+}
