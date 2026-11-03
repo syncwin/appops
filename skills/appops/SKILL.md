@@ -1,10 +1,10 @@
 ---
 name: appops
-description: Entry point for operating the apps the user works in on PC and web - how to use each app's screens, panels, settings, projects, exports, publishing, plans and integrations, and how to drive it from Claude (its MCP, API, files or, last, the screen). Use whenever the user asks to do something in or with a supported app, asks how a feature of that app works, hits an error inside the app, or invokes /appops. Today it routes to appops-nowa-expert (Nowa, the visual Flutter builder: boards, screens, components, themes, Circuit logic, data panel, Git panel, Instant play, run, publish, Connect External Agent). Not for writing or reviewing app code - that belongs to a developer plugin such as fs-developer.
+description: Entry point for operating the apps the user works in on PC and web - how to use each app's screens, panels, settings, projects, exports, publishing, plans and integrations, and how to drive it from Claude (its MCP, API, files or, last, the screen). Use whenever the user asks to do something in or with a supported app, asks how a feature of that app works, hits an error inside the app, or invokes /appops. Today it routes to appops-nowa-expert (Nowa, the visual Flutter builder: boards, screens, components, themes, Circuit logic, data panel, Git panel, Instant play, run, publish, Connect External Agent). Not for writing or reviewing app code - that belongs to a developer plugin such as fsdevops.
 license: MIT
 metadata:
   displayName: "AppOps"
-  version: "0.1.0"
+  version: "0.1.1"
   author: "@wasimness"
   company: "SyncWin"
 ---
@@ -32,7 +32,7 @@ Load the expert skill and follow its order. Read `references/house-rules.md` fir
 
 ## Working with a developer plugin
 - AppOps operates apps; it never writes, refactors or reviews code.
-- When a job needs code (a Dart file, a test, a build fix), check whether a developer plugin is installed (for Flutter: `fs-developer`). If yes, hand that part to it with a short code request (`references/house-rules.md` §Handoff). If not, give the user the manual step or a clear request they can take to a developer.
-- An expert may follow a developer plugin's rules for the app's code (for example Nowa follows fs-developer's builder-safe ownership rules). The developer plugin never depends on AppOps.
+- When a job needs code (a Dart file, a test, a build fix), check whether a developer plugin is installed (for Flutter: `fsdevops`). If yes, hand that part to it with a short code request (`references/house-rules.md` §Handoff). If not, give the user the manual step or a clear request they can take to a developer.
+- An expert may follow a developer plugin's rules for the app's code (for example Nowa follows fsdevops's builder-safe ownership rules). The developer plugin never depends on AppOps.
 
 Finish with a scratchpad: app, project, job, method used, what changed, what was verified, open items.

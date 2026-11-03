@@ -10,7 +10,7 @@ A Claude plugin with one expert skill per app you work in, so Claude uses each a
 4. Checks the result where users see it, and reports PASS / FAIL / NOT RUN.
 
 ## Works alone or with a developer plugin
-AppOps never writes code. When a job needs code it hands a short request to a developer plugin (for Flutter: `fs-developer`) if installed, or gives you the manual step. Experts may follow a developer plugin's rules for that app's code; developer plugins never depend on AppOps.
+AppOps never writes code. When a job needs code it hands a short request to a developer plugin (for Flutter: `fsdevops`) if installed, or gives you the manual step. Experts may follow a developer plugin's rules for that app's code; developer plugins never depend on AppOps.
 
 ## Experts
 | App | Skill | Checked on |

@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.1] - 2026-11-03
+### Changed
+- Developer plugin handoff now names Full-Stack DevOps (`fsdevops`), the renamed fs-developer.
+
 ## [0.1.0] - 2026-11-03
 ### Added
 - Router `appops` (`/appops`) with shared house rules: plan, snapshot, operate (MCP/API → files → shortcuts → clicks), check, report; handoff format to developer plugins.

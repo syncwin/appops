@@ -1,10 +1,10 @@
 ---
 name: appops-nowa-expert
-description: Operate Nowa, the visual Flutter app builder (Nowa Desktop and nowa.dev), the right way. Use when the user mentions Nowa, a Nowa board, screen, component, theme, Circuit logic, the Data panel, APIs tab, Supabase or Firebase in Nowa, Nowa AI (Design, Plan, Agent modes), Instant play, local projects, Project Sync, the Git panel, Save & Commit, running on a device, publishing a web, Android or iOS build from Nowa, plans and credits, or Connect External Agent; or when the appops router sends Nowa work here. Covers what to do visually in Nowa versus in code, the two-way file sync and round-trip rules, Git workflow, data connectors, publishing, the external-agent MCP (Enterprise-gated), shortcuts and known issues. Not for writing Dart by hand - code goes to fs-developer when installed.
+description: Operate Nowa, the visual Flutter app builder (Nowa Desktop and nowa.dev), the right way. Use when the user mentions Nowa, a Nowa board, screen, component, theme, Circuit logic, the Data panel, APIs tab, Supabase or Firebase in Nowa, Nowa AI (Design, Plan, Agent modes), Instant play, local projects, Project Sync, the Git panel, Save & Commit, running on a device, publishing a web, Android or iOS build from Nowa, plans and credits, or Connect External Agent; or when the appops router sends Nowa work here. Covers what to do visually in Nowa versus in code, the two-way file sync and round-trip rules, Git workflow, data connectors, publishing, the external-agent MCP (Enterprise-gated), shortcuts and known issues. Not for writing Dart by hand - code goes to fsdevops when installed.
 license: MIT
 metadata:
   displayName: "AppOps Nowa Expert"
-  version: "0.1.0"
+  version: "0.1.1"
   author: "@wasimness"
   company: "SyncWin"
 ---
@@ -32,7 +32,7 @@ If the user has no external-agent access, say so once, suggest emailing team@now
 | Do in Nowa | Do in code (developer plugin) |
 |---|---|
 | Screens, components, layout, theme and component themes, ARB translations, `@Preview` states, images and fonts, API connections from cURL/Swagger, Supabase/Firebase setup, platform permissions | App shell, routing, state management, data layer and sync, background work, push, tests, CI, anything built by helper methods |
-Recommended repo shape: Nowa opens one UI package (`packages/<prefix>_ui`); the rest is code. Record it in `.claude/ownership.md` (fs-developer reads it).
+Recommended repo shape: Nowa opens one UI package (`packages/<prefix>_ui`); the rest is code. Record it in `.claude/ownership.md` (fsdevops reads it).
 
 ## 4. Common jobs
 - **New project**: Desktop → Local Projects → New Local Project (folder under the user's dev folder, not Documents), or Import a local repo and pick the package.
@@ -43,7 +43,7 @@ Recommended repo shape: Nowa opens one UI package (`packages/<prefix>_ui`); the 
 - **Publish**: `references/data-and-publish.md`; needs the user's yes and a paid plan for store and web deploys.
 
 ## 5. Hand off code
-Any Dart change, test or build fix: follow `appops/references/house-rules.md` §4 to `fs-developer`. Before the developer edits, Save & Commit in Nowa; after, check the board and Instant play.
+Any Dart change, test or build fix: follow `appops/references/house-rules.md` §4 to `fsdevops`. Before the developer edits, Save & Commit in Nowa; after, check the board and Instant play.
 
 ## 6. When something breaks
 `references/shortcuts-and-troubleshooting.md`.
