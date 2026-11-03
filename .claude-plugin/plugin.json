@@ -1,0 +1,31 @@
+{
+  "name": "appops",
+  "displayName": "AppOps",
+  "version": "0.1.0",
+  "description": "AppOps (App Operator): one expert skill per desktop or web app, so Claude operates each app the right way - its screens, settings, limits, exports and integrations. Nowa (visual Flutter builder) first.",
+  "author": {
+    "name": "@wasimness",
+    "company": "SyncWin",
+    "email": "support@syncwin.com",
+    "url": "https://syncwin.com"
+  },
+  "homepage": "https://syncwin.com",
+  "repository": "https://github.com/syncwin/appops",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "keywords": ["app-operator", "nowa", "flutter", "visual-builder", "desktop-apps", "automation"],
+  "documentationUrl": "https://github.com/syncwin/appops#readme",
+  "supportUrl": "https://github.com/syncwin/appops/issues",
+  "privacyPolicyUrl": "https://syncwin.com/privacy-policy/",
+  "termsOfServiceUrl": "https://syncwin.com/terms-and-conditions/",
+  "metadata": {
+    "displayName": "AppOps",
+    "version": "0.1.0",
+    "releaseStage": "beta",
+    "author": "@wasimness",
+    "company": "SyncWin",
+    "homepage": "https://syncwin.com",
+    "repository": "https://github.com/syncwin/appops",
+    "license": "MIT"
+  }
+}

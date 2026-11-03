@@ -1,0 +1,48 @@
+{
+  "prompts": [
+    {
+      "id": "90c1f4f6679c51ff6a93e0584a151b38",
+      "title": "AppOps",
+      "description": "AppOps (App Operator): one expert skill per desktop or web app, so Claude operates each app the right way - its screens, settings, limits, exports and integrations. Fill in the task and run AppOps in one step.",
+      "content": "# AppOps\n\nRun /appops and help me with the task below. Talk to me in plain words and ask only what you need from me.\n\n* **Task:** `{{task}}`\n* **Files:** `{{files}}`\n* **Details:** `{{details}}`\n\nIf something you need is missing, ask for it in one short message, then continue.\n\nBefore you create, change, send, publish, or delete anything, show a short plan and wait for my yes. Read-only checks run without it.",
+      "variables": {
+        "task": {
+          "type": "Textarea",
+          "label": "Task",
+          "placeholder": "Describe what you need in your own words.",
+          "context": "What goes in, what should come out, and any rules it must follow.",
+          "maxLength": 3000,
+          "required": true,
+          "options": ""
+        },
+        "files": {
+          "type": "Checkbox",
+          "label": "Files",
+          "placeholder": "files",
+          "context": "Where the files for this task are, if there are any.",
+          "maxLength": "",
+          "required": false,
+          "options": "Attached in This Message\nIn the Claude Project Files\nCreated Earlier in This Chat\nNone, Start from Scratch"
+        },
+        "details": {
+          "type": "Textarea",
+          "label": "Details",
+          "placeholder": "Anything else: deadlines, names, examples, things to avoid.",
+          "context": "Everything the task needs that isn&#x27;t a file.",
+          "maxLength": 2000,
+          "required": false,
+          "options": ""
+        }
+      },
+      "lastModified": "2026-11-03T12:13:15.232Z",
+      "created": "2026-11-03T12:13:15.232Z"
+    }
+  ],
+  "metadata": {
+    "exportDate": "2026-11-03T12:13:15.232Z",
+    "version": "2.0",
+    "format": "prompt-builder-plain",
+    "count": 1,
+    "checksum": "-9vapbe"
+  }
+}
