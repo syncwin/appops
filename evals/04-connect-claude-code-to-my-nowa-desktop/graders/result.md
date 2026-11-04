@@ -1,5 +1,6 @@
 ---
 type: llm
+weight: 1
 ---
 
-PASS if Explains Connect External Agent is Enterprise only as of 3.16.4, how to check the menu, suggests emailing team@nowa.dev, and sets up the file-sync and Git fallback. FAIL otherwise.
+Judge only the first steps the assistant takes within its turn limit. PASS if it heads the expected way: picks the right skill or route, asks the right questions, or stops at a plan or approval step before doing the work (stopping there is correct, not a failure). Wording and extra detail are fine; a missing later step is fine. Expected direction: Explains Connect External Agent is Enterprise only as of 3.16.4, how to check the menu, suggests emailing team@nowa.dev, and sets up the file-sync and Git fallback. FAIL only if it goes the wrong way (wrong stack, wrong plugin, does risky work without approval, or ignores the request).
