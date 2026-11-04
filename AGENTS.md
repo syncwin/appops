@@ -12,7 +12,6 @@ AppOps Claude plugin: one expert skill per desktop or web app (Nowa first). It o
 1. Read the skill or script you change, plus its neighbours.
 2. Make the smallest change; run the closest check, then the full gate.
 3. Update `CHANGELOG.md` for behavior changes; log ideas in `IMPROVEMENTS.md`.
-4. Branch, commit, open a PR; never push to main.
 
 ## Rules
 - Run the closest check and the full gate before committing. Never delete or weaken tests or evals. Report failed, skipped or timed-out runs honestly; NOT RUN is never a pass.
