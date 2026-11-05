@@ -4,7 +4,7 @@ description: Operate Nowa, the visual Flutter app builder (Nowa Desktop and nowa
 license: MIT
 metadata:
   displayName: "AppOps Nowa Expert"
-  version: "0.1.2"
+  version: "0.1.3"
   author: "@wasimness"
   company: "SyncWin"
 ---
