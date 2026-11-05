@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - 2026-11-05
+
+### Added
+- Security notes: least privilege, no secrets in project files or exports, one-line threat model for a new integration, and safe use of the Nowa external-agent MCP.
+
 ## [0.1.2] - 2026-11-04
 ### Fixed
 Behaviour tests rebuilt the same way as fsdevops 0.3.1 (8/8 pass, was 2/8). The Nowa expert now lists the desktop settings: Local setup paths and the Git panel credentials.
