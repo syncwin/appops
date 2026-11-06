@@ -7,6 +7,7 @@ Log feedback and ideas here; move to Accepted when approved.
 Format: date · idea · source
 
 - 2026-11-04 · AGENTS.md model routing (Opus plans, Haiku/Sonnet execute) as a shipped default · all plugins (Claude plugins note)
+- 2026-11-06 · CLI harnesses for apps without MCP via CLI-Anything (HKUDS/CLI-Anything Claude plugin). Audit first (D:\SyncWin\AI Outputs\appops\CLI-Anything audit 2026-11-06.md); AppOps owns and lists harnesses; actions that send or delete ask the user · XDA, 4 Nov 2026
 
 ## Accepted
 
