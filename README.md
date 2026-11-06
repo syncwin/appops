@@ -2,6 +2,8 @@
 
 A Claude plugin with one expert skill per app you work in, so Claude uses each app the right way: its screens, settings, projects, exports, publishing, plans and integrations. **Nowa** (the visual Flutter builder) is first; more apps follow.
 
+**Download:** [appops.plugin](https://github.com/syncwin/appops/releases/latest/download/appops.plugin) (always the latest release)
+
 ## How it works
 `/appops` (or just ask to do something in a supported app) picks the app expert, which:
 1. Plans the change and gets one approval.
