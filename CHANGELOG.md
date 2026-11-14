@@ -1,6 +1,18 @@
 # Changelog
 
-## [Unreleased]
+## [0.2.0] - 2026-11-14
+
+### Changed
+- Directory layout: the shipped plugin moved to `adapters/claude/` (plugin.json, skills, prompts, assets, router evals). The repository root keeps `.claude-plugin/marketplace.json` (source `./adapters/claude`), docs, `.github/` and the live model evals in `evals/` (not shipped).
+- Renamed the skill `appops-nowa-expert` to `appops-nowa` (user-approved). All references, the router table and the evals are updated. Old name: `appops-nowa-expert`; the old invocation `appops:appops-nowa-expert` is now `appops:appops-nowa`.
+- Frontmatter is text-only: removed the nested `metadata:` maps and rewrote both descriptions to start with "Use when" or "Use whenever". The version lives in `plugin.json` and the marketplace entry.
+- Dropped the `icon` field from plugin.json (the icon image stays in the assets folder).
+- The router now has a routing table with exact slugs, tie-breaks, a default question and Skill-tool loading, checked by `adapters/claude/evals/router/cases.json`.
+- The release workflow builds `appops.plugin` from `adapters/claude` (text files only; hooks, scripts and `.mcp.json` are refused) on a `v*` tag.
+- Public safety: `PUBLIC-SAFETY.md`, `.public-safety-allow`, `.gitignore` preset; the root AGENTS.md no longer contains local drive paths.
+
+### Fixed
+- `prompts/appops.json`: an HTML entity in a variable description is now a plain apostrophe.
 
 ### Added
 - GitHub Actions workflow `release-plugin.yml` builds `appops.plugin` and attaches it to each release for a one-click download link (README).

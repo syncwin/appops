@@ -1,0 +1,13 @@
+{
+  "_note": "Router cases: expected = the skill the routing table in skills/appops/SKILL.md must pick, or 'ask' for the closed question. Checked by route_check.py.",
+  "cases": [
+    {"prompt": "publish my Nowa project to the web", "expected": "appops-nowa"},
+    {"prompt": "connect Claude Code to my Nowa Desktop using connect external agent", "expected": "appops-nowa"},
+    {"prompt": "my widget shows as a sealed box on the nowa board", "expected": "appops-nowa"},
+    {"prompt": "set up circuit logic for my login screen", "expected": "appops-nowa"},
+    {"prompt": "run instant play on my screen", "expected": "appops-nowa"},
+    {"prompt": "how do I use the git panel in nowa.dev", "expected": "appops-nowa"},
+    {"prompt": "help me with this app project", "expected": "ask"},
+    {"prompt": "I need to change a setting in my design app", "expected": "ask"}
+  ]
+}

@@ -1,0 +1,21 @@
+# False positives for scan_secrets.py. Only exact, intentional values, each tied to the file that holds it.
+# Format: <rule>:<path-glob>[:<value-substring>]
+# The plugin's public support address (it is the published contact, not personal data):
+email:README.md:support@syncwin.com
+email:.claude-plugin/marketplace.json:support@syncwin.com
+email:adapters/claude/.claude-plugin/plugin.json:support@syncwin.com
+email:adapters/claude/README.md:support@syncwin.com
+email:.public-safety-allow:support@syncwin.com
+# Nowa's public contact address, quoted from the vendor's published docs (not personal data):
+email:adapters/claude/evals/evals.json:team@nowa.dev
+email:adapters/claude/skills/appops-nowa/SKILL.md:team@nowa.dev
+email:adapters/claude/skills/appops-nowa/references/agent-and-ai.md:team@nowa.dev
+email:evals/04-connect-claude-code-to-my-nowa-desktop/graders/result.md:team@nowa.dev
+email:.public-safety-allow:team@nowa.dev
+# Git history only (old commits and old paths before the 0.2.0 move, no history rewrite; the public contacts and folder paths, no credential involved):
+drive-path:AGENTS.md:A:\Automation
+drive-path:IMPROVEMENTS.md:D:\SyncWin
+email:.claude-plugin/plugin.json:support@syncwin.com
+email:evals/evals.json:team@nowa.dev
+email:skills/appops-nowa-expert/SKILL.md:team@nowa.dev
+email:skills/appops-nowa-expert/references/agent-and-ai.md:team@nowa.dev

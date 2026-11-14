@@ -17,7 +17,7 @@ AppOps never writes code. When a job needs code it hands a short request to a de
 ## Experts
 | App | Skill | Checked on |
 |---|---|---|
-| Nowa | `appops-nowa-expert` | Nowa 3.16.4 (28 Oct 2026) |
+| Nowa | `appops-nowa` | Nowa 3.16.4 (28 Oct 2026) |
 
 ## Install
 ```
