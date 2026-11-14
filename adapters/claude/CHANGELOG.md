@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1] - 2026-11-14
+
+### Fixed
+- `house-rules.md` used the old skill pattern `appops-<app>-expert`; it now reads `appops-<app>`.
+- The unused icon image moved out of the shipped plugin to `docs/assets/` (the manifest no longer references it).
+
 ## [0.2.0] - 2026-11-14
 
 ### Changed
