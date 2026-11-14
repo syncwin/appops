@@ -1,12 +1,7 @@
 ---
-name: appops-nowa-expert
-description: Operate Nowa, the visual Flutter app builder (Nowa Desktop and nowa.dev), the right way. Use when the user mentions Nowa, a Nowa board, screen, component, theme, Circuit logic, the Data panel, APIs tab, Supabase or Firebase in Nowa, Nowa AI (Design, Plan, Agent modes), Instant play, local projects, Project Sync, the Git panel, Save & Commit, running on a device, publishing a web, Android or iOS build from Nowa, plans and credits, or Connect External Agent; or when the appops router sends Nowa work here. Covers what to do visually in Nowa versus in code, the two-way file sync and round-trip rules, Git workflow, data connectors, publishing, the external-agent MCP (Enterprise-gated), shortcuts and known issues. Not for writing Dart by hand - code goes to fsdevops when installed.
+name: appops-nowa
+description: Use when the user mentions Nowa, a Nowa board, screen, component, theme, Circuit logic, the Data panel, APIs tab, Supabase or Firebase in Nowa, Nowa AI (Design, Plan, Agent modes), Instant play, local projects, Project Sync, the Git panel, Save & Commit, running on a device, publishing a web, Android or iOS build from Nowa, plans and credits, or Connect External Agent; or when the appops router sends Nowa work here. Operates Nowa, the visual Flutter app builder (Nowa Desktop and nowa.dev), the right way. Covers what to do visually in Nowa versus in code, the two-way file sync and round-trip rules, Git workflow, data connectors, publishing, the external-agent MCP (Enterprise-gated), shortcuts and known issues. Not for writing Dart by hand - code goes to fsdevops when installed.
 license: MIT
-metadata:
-  displayName: "AppOps Nowa Expert"
-  version: "0.1.4"
-  author: "@wasimness"
-  company: "SyncWin"
 ---
 
 # AppOps Nowa Expert
