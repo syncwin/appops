@@ -27,7 +27,7 @@ Never reverse-engineer a gated or undocumented endpoint.
 ## 4. Handoff to a developer plugin
 When the job needs code, write a short request and pass it on (or give it to the user):
 ```
-Code request (from appops-<app>-expert)
+Code request (from appops-<app>)
 Project: <path>   Owned paths: <from .claude/ownership.md>
 Need: <behaviour>   Why: <app limit that needs code>
 Done when: <check in the app>
